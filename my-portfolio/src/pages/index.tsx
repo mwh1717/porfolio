@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div className={styles.gradings}>
           <div className={styles.techWrapperSingle}>
-            <div className={styles.gradingsTitle}>Mastered</div>
+            <h2 className={styles.gradingsTitle}>Mastered</h2>
             <Image alt="html css and javascript logos"
               width={500}
               height={300}
@@ -32,9 +32,9 @@ export default function Home() {
             />
           </div>
           <div className={styles.techWrapperDouble}>
-            <div className={styles.gradingsTitle}>Aspiring</div>
+            <h2 className={styles.gradingsTitle}>Aspiring</h2>
             <div className={styles.techWrapperDoubleImages}>
-            <Image alt="tailwind logo"
+              <Image alt="tailwind logo"
                 width={100}
                 height={100}
                 style={{
@@ -71,6 +71,49 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.wrapper2}>
+        <h2 className={styles.wrapper2Title}>Who I've Worked For</h2>
+        <div className={styles.companiesWrapper}>
+          <div className={styles.companyBlock}>
+            <h3 className={styles.companyName}>Bank Of America Corp.</h3>
+            <Image alt="bank of america logo"
+                width={100}
+                height={100}
+                style={{
+                  width: 'auto',
+                  height: '100px',
+                }}
+                src='/colored_flagscape-v2.png'
+              />
+            <div className={styles.position}>Software Engineer</div>
+          </div>
+          <div className={styles.companyBlock}>
+            <h3 className={styles.companyName}>Crafted Agency</h3>
+            <Image alt="crafted agency logo"
+                width={100}
+                height={100}
+                style={{
+                  width: 'auto',
+                  height: '100px',
+                }}
+                src='/crafted_logo.png'
+              />
+            <div className={styles.position}>Development Team Lead/Technical PM</div>
+          </div>
+          <div className={styles.companyBlock}>
+            <h3 className={styles.companyName}>Who Is Next?</h3>
+            <Image alt="qustion mark logo"
+                width={100}
+                height={100}
+                style={{
+                  width: 'auto',
+                  height: '70px',
+                  margin: '15px',
+                }}
+                src='/fi-snsuxl-question-mark.png'
+              />
+            <div className={styles.position}>?????</div>
+          </div>
+        </div>
       </div>
     </div>
   </>
