@@ -1,0 +1,52 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  background-color: lightgray;
+  min-height: 100vh;
+}
+
+.global-nav {
+  display: flex;
+  font-size: 20px;
+  background-color: navy;
+  height: 60px;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  color: white
+}
+
+.nav-link:hover {
+  background-color: rgb(14, 14, 143);
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .global-nav {
+
+  }
+
+  .nav-link {
+    width: 33.33%
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+@keyframes rotate {
+
+}
