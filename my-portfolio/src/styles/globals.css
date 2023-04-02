@@ -9,9 +9,25 @@ body {
 
 .global-nav {
   display: flex;
+  justify-content: space-between;
   font-size: 20px;
   background-color: navy;
-  height: 60px;
+  height: 70px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: calc(100vw - 95%);
+}
+
+.items {
+  display: flex;
+  padding-right:  calc(100vw - 95%);
 }
 
 .nav-link {
@@ -27,14 +43,38 @@ body {
   cursor: pointer;
 }
 
+.global-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: navy;
+  color: white;
+  height: 60px;
+  margin-top: 60px;
+}
+
 /* Mobile */
 @media (max-width: 700px) {
   .global-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 120px;
+  }
 
+  .name {
+    justify-content: center;
+    width: 100vw;
+    padding: 0;
+  }
+
+  .items {
+    width: 100vw;
+    padding: 0;
   }
 
   .nav-link {
-    width: 33.33%
+    flex-grow: 1;
   }
 }
 
