@@ -19,6 +19,7 @@
 
 .inputWrapper {
   display: flex;
+  justify-content: center;
 }
 
 .input {
@@ -31,6 +32,8 @@
 
 .buttonWrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .button {
