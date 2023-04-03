@@ -39,9 +39,9 @@ export default function Home() {
                 height={100}
                 style={{
                   width: 'auto',
-                  height: '75px',
+                  height: '50px',
                   position: 'relative',
-                  top: '12px'
+                  top: '25px'
                 }}
                 src='/tailwind-css.svg'
                 className={styles.photo}
@@ -74,7 +74,7 @@ export default function Home() {
         <h2 className={styles.wrapper2Title}>Who I've Worked For</h2>
         <div className={styles.companiesWrapper}>
           <div className={styles.companyBlock}>
-            <h3 className={styles.companyName}>Bank Of America Corp.</h3>
+            <h3 className={styles.companyName}>Bank Of America</h3>
             <Image alt="bank of america logo"
                 width={100}
                 height={100}
@@ -97,10 +97,10 @@ export default function Home() {
                 }}
                 src='/crafted_logo.png'
               />
-            <div className={styles.position}>Development Team Lead/Technical PM</div>
+            <div className={styles.position}>Development Team Lead</div>
           </div>
           <div className={styles.companyBlock}>
-            <h3 className={styles.companyName}>Who Is Next?</h3>
+            <h3 className={styles.companyName}>Your Company?</h3>
             <Image alt="qustion mark logo"
                 width={100}
                 height={100}
@@ -111,7 +111,7 @@ export default function Home() {
                 }}
                 src='/fi-snsuxl-question-mark.png'
               />
-            <div className={styles.position}>?????</div>
+            <div className={styles.position}>????</div>
           </div>
         </div>
       </div>

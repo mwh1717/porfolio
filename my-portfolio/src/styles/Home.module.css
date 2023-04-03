@@ -61,10 +61,9 @@
 .wrapper2 {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 100vw;
   margin: 20px 0 0 0;
-  padding: 0 0 20px 0;
+  padding: 0 20px 30px 20px;
   background-color: white;
 }
 
@@ -77,14 +76,13 @@
 
 .companiesWrapper {
   display: flex;
-  
 }
 
 .companyBlock {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-grow: 1;
+  width: 33.33%
 }
 
 .companyName {
@@ -113,6 +111,19 @@
     margin: 0 0 10px 0;
     flex-direction: column;
   }
+
+  .techWrapperSingle {
+    margin-bottom: 25px;
+  }
+
+  .companiesWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .companyBlock {
+    margin: 15px;
+  }
 }
 
 @media (min-width: 701px) and (max-width: 850px) {
@@ -132,10 +143,6 @@
     width: 95%;
     margin: 0;
     flex-direction: column;
-  }
-
-  .techWrapperSingle {
-    margin-bottom: 25px;
   }
 }
 
