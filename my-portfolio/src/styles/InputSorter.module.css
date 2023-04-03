@@ -1,0 +1,84 @@
+/* HERE */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: 30px 0;
+}
+
+.contentWrapper {
+  margin: 20px 0;
+}
+
+.sorterInstruction {
+  display: flex;
+  text-align: center;
+}
+
+.inputWrapper {
+  display: flex;
+}
+
+.input {
+  margin: 0 10px;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+  padding: 5px;
+}
+
+.buttonWrapper {
+  display: flex;
+}
+
+.button {
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(188, 60, 188)
+}
+
+.dumpOut {
+  display: flex;
+}
+
+.dumpDiv {
+  font-size: 25px;
+}
+
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+
+}
+
+@media (min-width: 701px) and (max-width: 850px) {
+
+}
+
+
+@media (min-width: 851px) and (max-width: 1120px) {
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+@keyframes rotate {
+
+}
