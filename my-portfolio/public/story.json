@@ -1,11 +1,29 @@
 [
   {
-    "para": "My technology career began in the summer of 2018. At the time I was a police officer and was in the process of serving an arrest warrant on an individual for Domestic Violence. In the process of the arrest I was bit by that individual so hard that it broken skin and damaged the tendon in my elbow. Following that incident, I was left wondering what life held for me. Fortunately, I was friends with a few software engineer who gave me my first lesson in coding after hearing the more detailed version of the above. My first lesson was 'alert('hello')' in the console of a Chrome browser. I was hooked."
+    "para": "My journey in technology began in the summer of 2018 while I was serving as a police officer. I sustained a serious injury (human bite) while apprehending an individual with a Domestic Violence warrant, which left me wondering about my future. Luckily, a few of my software engineer friends introduced me to the world of coding and my first lesson in the console of a Chrome browser was enough to ignite my passion."
   },
   {
-    "para": "TEST2"
+    "para": "Within six months, I completed the UNCC Full Stack Coding Bootcamp, feeling confident and ready to take on the industry. However, my job search was met with numerous disappointments and no callbacks. It wasn't until Insight Global provided me with an opportunity at Bank of America as a UI Developer on one of the agile feature teams in the Credit Cards space that I could finally make a breakthrough."
   },
   {
-    "para": "TEST3"
+    "para": "Being part of a team that valued my growth and collaboration, I completed multiple projects in the bank's UI space over the course of three years. These projects, including some that garnered over two billion views in fiscal year 2021, provided me with a sense of fulfillment and accomplishment that continues to inspire my pursuit in technology."
+  },
+  {
+    "para": "In early 2022, I was offered a leadership position with Crafted Agency. At the time they were looking for a Technical Project Manager but the role evolved into the Development Team Lead. As the lead, my responsibilities are extensive and multi-faceted. I manage the daily workload, strategy, and velocity for two in-house developers, one off-site contractor, and occassinoally an offshore team based in India. Additionally, I am responsible for monitoring and triaging cloud server infrastructure for all client sites and databases, as well as creating and/or scaling server infrastructure for new and existing clients. My duties also include domain, DNS, and SSL setup and maintenance for all clients."
+  },
+  {
+    "para": "In terms of project management, I plann and lead all technical projects through the entire software development life cycle (SDLC), even inheriting six projects that were overdue by 8-14 months upon arrival to the agency. My team and I were able to successfully deliver them all within six months. I advise the design team on UX/UI practices for web applications and am also the subject matter expert (SME) on tech stack changes, third-party integrations, tech debt, etc. I am responsible for Google Analytics, HubSpot, Mailgun, MailChimp, and all additional integrations."
+  },
+  {
+    "para": "As part of my role, I also manage and triage all technical issues for non-development teams and lead agile ceremonies, authoring all user stories within JIRA. I author, socialize, and confirm acceptance criteria for all technical projects with clients. Furthermore, I am responsible for team growth and talent acquisition, conducting over two dozen initial and technical interviews, and designing and implementing a technical interview and coding challenge that the agency uses to test talent. I strategize and implement site maintenance packages for clients and act as the technical account manager for two clients."
+  },
+  {
+    "para": "In collaboration with the leads of design and accounts teams, I strategize employee resource availability and timing. I review merge requests and conduct lower-level QA, act as a mentor and senior developer to assist team members in thinking through complex code logic, and remove general roadblocks for the development team while handling miscellaneous tech work as needed to keep the team clear and focused on project work. I also implemented policies for the development team that did not exist upon my entry into the agency, including Git process, deployment process, work intake process, testing process, and bug intake and prioritization process."
+  },
+  {
+    "para": "One of my significant accomplishments was taking the initiative to research, plan, and lead a full cloud server migration for seven clients. This action saved month-over-month expenses while boosting server performance and processing power by over 50%. Additionally, I successfully thwarted an organized bot attack on a client's site."
+  },
+  {
+    "para": "Currently, I am actively seeking new opportunities as a skilled developer, experienced project manager, product owner, or competent team lead."
   }
 ]

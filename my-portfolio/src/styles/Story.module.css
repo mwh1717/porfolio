@@ -1,0 +1,58 @@
+/* HERE */
+.storyWrapper {
+  width: 100vw;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphWrapper {
+  background-color: white;
+  width: 700px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.contentBlock {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .paragraphWrapper {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 0 30px;
+  }
+
+}
+
+@media (min-width: 701px) and (max-width: 850px) {
+
+}
+
+
+@media (min-width: 851px) and (max-width: 1120px) {
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+@keyframes rotate {
+
+}
