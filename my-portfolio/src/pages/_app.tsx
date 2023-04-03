@@ -13,7 +13,9 @@ export default function App({ Component, pageProps }: AppProps) {
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Navbar />
-    <Component {...pageProps} />
+    <div className='content-container'>
+      <Component {...pageProps} />
+    </div>
     <Footer />
   </>
 }
