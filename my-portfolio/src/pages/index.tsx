@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import styles from '@/styles/Home.module.css';
+import Image from "next/image";
+import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return <>
@@ -10,10 +10,10 @@ export default function Home() {
             width={500}
             height={650}
             style={{
-              width: '100%',
-              height: 'auto',
+              width: "100%",
+              height: "auto",
             }}
-            src='/m&k.JPG'
+            src="/m&k.JPG"
             className={styles.photo}
           />
         </div>
@@ -24,10 +24,10 @@ export default function Home() {
               width={500}
               height={300}
               style={{
-                width: 'auto',
-                height: '100px',
+                width: "auto",
+                height: "100px",
               }}
-              src='/html5-logo-31816.png'
+              src="/html5-logo-31816.png"
               className={styles.photo}
             />
           </div>
@@ -38,32 +38,32 @@ export default function Home() {
                 width={100}
                 height={100}
                 style={{
-                  width: 'auto',
-                  height: '50px',
-                  position: 'relative',
-                  top: '25px'
+                  width: "auto",
+                  height: "50px",
+                  position: "relative",
+                  top: "25px"
                 }}
-                src='/tailwind-css.svg'
+                src="/tailwind-css.svg"
                 className={styles.photo}
               />
               <Image alt="java logo"
                 width={100}
                 height={100}
                 style={{
-                  width: 'auto',
-                  height: '100px',
+                  width: "auto",
+                  height: "100px",
                 }}
-                src='/Java_programming_language_logo.svg'
+                src="/Java_programming_language_logo.svg"
                 className={styles.photo}
               />
               <Image alt="react logo"
                 width={100}
                 height={100}
                 style={{
-                  width: 'auto',
-                  height: '100px',
+                  width: "auto",
+                  height: "100px",
                 }}
-                src='/react-logo.png'
+                src="/react-logo.png"
                 className={styles.photo}
               />
             </div>
@@ -79,10 +79,10 @@ export default function Home() {
                 width={100}
                 height={100}
                 style={{
-                  width: 'auto',
-                  height: '100px',
+                  width: "auto",
+                  height: "100px",
                 }}
-                src='/colored_flagscape-v2.png'
+                src="/colored_flagscape-v2.png"
               />
             <div className={styles.position}>Software Engineer</div>
           </div>
@@ -92,10 +92,10 @@ export default function Home() {
                 width={100}
                 height={100}
                 style={{
-                  width: 'auto',
-                  height: '100px',
+                  width: "auto",
+                  height: "100px",
                 }}
-                src='/crafted_logo.png'
+                src="/crafted_logo.png"
               />
             <div className={styles.position}>Development Team Lead</div>
           </div>
@@ -105,11 +105,11 @@ export default function Home() {
                 width={100}
                 height={100}
                 style={{
-                  width: 'auto',
-                  height: '70px',
-                  margin: '15px',
+                  width: "auto",
+                  height: "70px",
+                  margin: "15px",
                 }}
-                src='/fi-snsuxl-question-mark.png'
+                src="/fi-snsuxl-question-mark.png"
               />
             <div className={styles.position}>????</div>
           </div>

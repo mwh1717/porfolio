@@ -1,12 +1,12 @@
 import React from "react";
-import { useState } from "react";
+import { useState, ChangeEvent, KeyboardEvent } from "react";
 import styles from '@/styles/InputSorter.module.css'
 
 function InputSorter() {
   const emptyState = ['', '', '', '', ''];
   const [inputValues, setInputValues] = useState(emptyState);
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement> | React.KeyboardEvent<HTMLInputElement>, index: number) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>, index: number) => {
     const value = e.target.value;
     const newInputValues = [...inputValues];
 
@@ -16,7 +16,7 @@ function InputSorter() {
     }
   }
 
-  const handleBackspace = (e: React.KeyboardEvent<HTMLInputElement>, index: number) => {
+  const handleBackspace = (e: KeyboardEvent<HTMLInputElement>, index: number) => {
     const newInputValues = [...inputValues]
     
     if (e.keyCode === 8) {
@@ -44,13 +44,13 @@ function InputSorter() {
   }
 
   const handleAscendingSort = () => {
-    const sortedNumbers = [...inputValues].sort((a, b) => a - b);
+    const sortedNumbers: string[] = [...inputValues].sort((a: string, b: string) => Number(a) - Number(b));
     destroyDump();
     setInputsIntoDiv(sortedNumbers);
   }
 
   const handleDescendingSort = () => {
-    const sortedNumbers = [...inputValues].sort((a, b) => b - a);
+    const sortedNumbers: string[] = [...inputValues].sort((a: string, b: string) => Number(b) - Number(a));
     destroyDump();
     setInputsIntoDiv(sortedNumbers);
   }
