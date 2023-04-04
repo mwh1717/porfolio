@@ -71,7 +71,7 @@ export default function Home() {
         </div>
       </div>
       <div className={styles.wrapper2}>
-        <h2 className={styles.wrapper2Title}>Who I've Worked For</h2>
+        <h2 className={styles.wrapper2Title}>Who I&apos;ve Worked For</h2>
         <div className={styles.companiesWrapper}>
           <div className={styles.companyBlock}>
             <h3 className={styles.companyName}>Bank Of America</h3>

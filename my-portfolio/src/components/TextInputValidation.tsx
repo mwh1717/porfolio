@@ -16,7 +16,7 @@ function TextInputValidation() {
 
   return (
     <div className={styles.body}>
-      <div className={styles.validationInstruction}>Please enter "helloWorld" into the input</div>
+      <div className={styles.validationInstruction}>Please enter &apos;helloWorld&apos; into the input</div>
       <div className={styles.inputWrapper}>
         <input
           type="text"
