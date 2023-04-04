@@ -1,6 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-}
+const execSync = require("child_process").execSync;
 
-module.exports = nextConfig
+const lastCommitCommand = "git rev-parse HEAD";
+
+module.exports = {
+  async generateBuildId() {
+    return execSync(lastCommitCommand).toString().trim();
+  },
+};
