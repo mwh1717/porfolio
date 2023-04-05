@@ -93,7 +93,7 @@ function Entry({ entry, depth }: {
       )}
 
       {isExpanded &&
-        <div style={{ paddingLeft: `40px` }} className={`child`}>
+        <div className={styles.expandedChildren}>
           {entry.children?.map((entry, index) => (
             <Entry entry={entry} depth={depth + 1} key={index}/>
           ))}

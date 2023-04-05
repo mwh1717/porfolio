@@ -16,10 +16,18 @@
   margin: 20px 0;
 }
 
+.nestingInstruction {
+  text-align: center;
+}
+
 .button {
   display: flex;
   align-items: center;
   width: 100%
+}
+
+.expandedChildren {
+  padding-left: 40px;
 }
 
 .expanded {
@@ -45,13 +53,11 @@
 
   .module {
     width: 90%;
-    text-align: center;
   }
 
   .nestingWrapper {
     width: 100%;
   }
-
 }
 
 @media (min-width: 701px) and (max-width: 850px) {
