@@ -9,9 +9,10 @@
 }
 
 .paragraphWrapper {
+  box-shadow: 5px 5px 5px rgb(166, 166, 166);
   background-color: white;
   width: 700px;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 5px;
   margin: 20px 0;
   padding: 0 20px;
