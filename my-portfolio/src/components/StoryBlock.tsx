@@ -5,7 +5,7 @@ import styles from '@/styles/Story.module.css';
 function StoryBlock() {
 
   return (
-    <div className={styles.body}>
+    <div className={styles.module}>
       <div className={styles.paragraphWrapper}>
         {data.map((data, index) => {
           let content;

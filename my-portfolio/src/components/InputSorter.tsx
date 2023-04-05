@@ -67,7 +67,7 @@ function InputSorter() {
   }
 
   return (
-    <div className={styles.body}>
+    <div className={styles.module}>
       <div className={styles.sorterInstruction}>Input numbers between 1 - 9, press a button to sort</div>
       <div className={`${styles.inputWrapper} ${styles.contentWrapper}`}>
         {[...Array(5)].map((_, index) => (

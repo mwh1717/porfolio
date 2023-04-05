@@ -1,9 +1,9 @@
 /* HERE */
 .storyWrapper {
-  width: 100vw;
+  width: 100%;
 }
 
-.body {
+.module {
   display: flex;
   justify-content: center;
 }
