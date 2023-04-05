@@ -7,9 +7,15 @@ function StoryBlock() {
   return (
     <div className={styles.body}>
       <div className={styles.paragraphWrapper}>
-        {data.map((data, index) => (
-          <p key={index} className={styles.contentBlock}> {data.para} </p>
-        ))}
+        {data.map((data, index) => {
+          let content;
+          if (data.para) {
+            content = <p key={index} className={styles.contentBlock}>{data.para}</p>;
+          } else {
+            content = <h2 key={index} className={styles.contentTitle}>{data.title}</h2>;
+          }
+          return content;
+        })}
       </div>
     </div>
   )

@@ -6,8 +6,11 @@
 }
 
 .wrapper1 {
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
+  border: 3px solid black;
+  border-radius: 5px;
   width: 90vw;
   margin: 20px 0;
   border-radius: 5px;
@@ -16,35 +19,29 @@
 
 .picture {
   display: flex;
-  border-radius: 5px;
   width: 350px;
-}
-
-.photo {
-  border-radius: 5px;
+  flex-shrink: 0;
 }
 
 .gradings {
-  border: 2px solid black;
-  border-radius: 5px;
-  margin: 25px;
-  padding: 40px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: calc(100% - 400px);
+  justify-content: space-evenly;
+  flex-grow: 1;
 }
 
 .techWrapperSingle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 .techWrapperDouble {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 .techWrapperDoubleImages {
@@ -61,7 +58,7 @@
 .wrapper2 {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   margin: 20px 0 0 0;
   padding: 0 20px 30px 20px;
   background-color: white;
@@ -97,8 +94,7 @@
 /* Mobile */
 @media (max-width: 700px) {
   .picture {
-    width: calc(90vw - 20px);
-    margin: 10px 0;
+    width: 100%;
   }
 
   .wrapper1 {
@@ -129,8 +125,7 @@
 
 @media (min-width: 701px) and (max-width: 850px) {
   .picture {
-    margin: 10px 10px;
-    width: 425px;
+    width: 100%;
   }
 
   .wrapper1 {

@@ -1,5 +1,8 @@
 [
   {
+    "title": "From Bites to Bytes"
+  },
+  {
     "para": "My journey in technology began in the summer of 2018 while I was serving as a police officer. I sustained a serious injury (human bite) while apprehending an individual with a Domestic Violence warrant, which left me wondering about my future. Luckily, a few of my software engineer friends introduced me to the world of coding and my first lesson in the console of a Chrome browser was enough to ignite my passion."
   },
   {
@@ -25,8 +28,5 @@
   },
   {
     "para": "Currently, I am actively seeking new opportunities as a skilled developer, experienced project manager, product owner, or competent team lead."
-  },
-  {
-    "para": "Adding this p tag to test prod deploys"
   }
 ]

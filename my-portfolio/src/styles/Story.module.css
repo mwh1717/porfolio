@@ -22,6 +22,13 @@
   font-size: 22px;
 }
 
+.contentTitle {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
 

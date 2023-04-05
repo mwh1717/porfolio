@@ -3,8 +3,13 @@
 @import "tailwindcss/utilities";
 
 body {
-  background-color: lightgray;
   min-height: 100vh;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+#__next {
+  background-color: lightgray;
 }
 
 .global-nav {
@@ -22,12 +27,12 @@ body {
   color: white;
   font-size: 40px;
   font-weight: bold;
-  padding-left: calc(100vw - 95%);
+  padding-left: 5%
 }
 
 .items {
   display: flex;
-  padding-right:  calc(100vw - 95%);
+  padding-right:  5%;
 }
 
 .nav-link {
@@ -61,6 +66,14 @@ body {
 
 /* Mobile */
 @media (max-width: 700px) {
+
+
+  .content-container {
+    min-height: calc(100vh - 200px);
+  }
+}
+
+@media (max-width: 850px) {
   .global-nav {
     display: flex;
     justify-content: center;
@@ -81,10 +94,6 @@ body {
 
   .nav-link {
     flex-grow: 1;
-  }
-
-  .content-container {
-    min-height: calc(100vh - 200px);
   }
 }
 
