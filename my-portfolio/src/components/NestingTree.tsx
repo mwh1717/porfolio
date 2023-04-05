@@ -70,10 +70,9 @@ type FullEntry = {
   children?: FullEntry[];
 }
 
-function Entry({ entry, depth, index }: {
+function Entry({ entry, depth }: {
   entry: FullEntry;
   depth: number;
-  index: number;
 }) {
 
   const [isExpanded, setIsExpanded] = useState(false);
@@ -95,7 +94,7 @@ function Entry({ entry, depth, index }: {
 
       {isExpanded &&
         <div style={{ paddingLeft: `40px` }} className={`child`}>
-          {entry.children?.map((entry) => (
+          {entry.children?.map((entry, index) => (
             <Entry entry={entry} depth={depth + 1} key={index}/>
           ))}
         </div>
