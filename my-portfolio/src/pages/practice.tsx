@@ -27,7 +27,7 @@ export default function Practice() {
           />
         </a>
         <div className={styles.appDesc}>
-          This is my DnD 5e Shopkeeper application, created with NextJS with Typescript and Tailwind. When the user lands on the page initially, an API call is made to the free dnd5eapi to gather all of the 5e magic items. Six random items from that list are selected and an API call is made for each to gather the item&apos;s specific information. Each item is then rendered within a card that has a different border color depending on the item&apos;s rarity. The user can choose to purchase the item, which removes the card from the DOM. More features will be built out at a later time for continued practice.
+          This is my DnD 5e Shopkeeper application, created with NextJS utilizing TypeScript and Tailwind. When the user lands on the page initially, an API call is made to the free dnd5eapi to gather all of the 5e magic items. Six random items from that list are selected and an API call is made for each to gather the item&apos;s specific information. Each item is then rendered within a card that has a different border color depending on the item&apos;s rarity. The user can choose to purchase the item, which removes the card from the DOM. More features will be built out at a later time for continued practice.
         </div>
       </div>
     </div>
